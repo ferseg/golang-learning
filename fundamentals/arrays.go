@@ -5,6 +5,7 @@ import (
 )
 
 func main()  {
+  // Array
   var arr = [...]int{1, 2, 3}
   fmt.Println(arr)
 
@@ -21,6 +22,7 @@ func main()  {
   fmt.Println(arr)
   fmt.Println(arrRef)
 
+  // Slice
   thisIsASlice := []int{1,2,3}
   sliceRef := thisIsASlice
   sliceRef[0] = 10
